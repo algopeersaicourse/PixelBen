@@ -1,0 +1,6 @@
+{
+  "name": "PixelBen — Drawing, Isometric & Architecture Studio",
+  "description": "A personal drawing lesson studio to learn drawing fundamentals, master isometrics, and explore architectural lessons in a premium music-studio atmosphere.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
