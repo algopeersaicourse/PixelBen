@@ -1,4 +1,9 @@
 import { ArchitecturalLesson } from '../types';
+import {
+  drawingLessonPerspective,
+  isometricArchitectureArt,
+  isometricGamingStation
+} from '../assets/images';
 
 export const architecturalLessons: ArchitecturalLesson[] = [
   {
@@ -9,7 +14,7 @@ export const architecturalLessons: ArchitecturalLesson[] = [
     duration: '25 min',
     difficulty: 'Beginner',
     summary: 'One-point perspective is the foundation of architectural depth. Learn how a single vanishing point locked to your horizon line dictates human perception, floor grid intervals, and architectural colonnades.',
-    heroImage: '/src/assets/images/drawing_lesson_perspective_1791048454032.jpg',
+    heroImage: drawingLessonPerspective,
     keyPrinciples: [
       'The Horizon Line strictly represents the observer’s eye level (standing at 1.6m vs crouching vs aerial bird-eye view).',
       'All receding horizontal surfaces converge strictly to the single Vanishing Point (VP).',
@@ -55,7 +60,7 @@ export const architecturalLessons: ArchitecturalLesson[] = [
     duration: '35 min',
     difficulty: 'Intermediate',
     summary: 'Two-point perspective mimics natural human vision when viewing the corner of a building. Learn how left and right vanishing points interact with cantilevered balconies, glass facades, and structural massing.',
-    heroImage: '/src/assets/images/isometric_architecture_art_1791048441839.jpg',
+    heroImage: isometricArchitectureArt,
     keyPrinciples: [
       'Two vanishing points (VP Left and VP Right) both sit on the exact same continuous Horizon Line.',
       'To prevent unnatural fish-eye distortion, keep VP-L and VP-R spaced wide—often beyond the visible edges of the canvas.',
@@ -101,7 +106,7 @@ export const architecturalLessons: ArchitecturalLesson[] = [
     duration: '30 min',
     difficulty: 'Intermediate',
     summary: 'Unlike perspective drawing where lines converge, isometric drawing maintains parallel lines along 30-degree angles. This preserves exact dimensional proportions, making it the preferred language of designers, architects, and studio builders.',
-    heroImage: '/src/assets/images/isometric_gaming_station_1791048470439.jpg',
+    heroImage: isometricGamingStation,
     keyPrinciples: [
       'The Isometric Triad: The three coordinate axes are oriented at 90° (vertical), 30° above horizontal (right), and 150° above horizontal (left).',
       'Parallel lines remain strictly parallel everywhere; there are no vanishing points or focal distortions.',
@@ -147,7 +152,7 @@ export const architecturalLessons: ArchitecturalLesson[] = [
     duration: '20 min',
     difficulty: 'Intermediate',
     summary: 'Shading turns flat geometry into palpable physical space. Learn the classic architectural 45-degree sun convention, core shadow terminations, and how ground cast shadows reveal underlying terrain steps.',
-    heroImage: '/src/assets/images/drawing_lesson_perspective_1791048454032.jpg',
+    heroImage: drawingLessonPerspective,
     keyPrinciples: [
       'Architectural convention sets sunlight coming over the left shoulder at 45° in elevation and 45° in plan.',
       'Every shadow has two components: Form Shadow (the face turned away from the light) and Cast Shadow (the silhouette cast onto other surfaces).',
@@ -187,7 +192,7 @@ export const architecturalLessons: ArchitecturalLesson[] = [
     duration: '30 min',
     difficulty: 'Advanced',
     summary: 'A drawing gains soul through its material honesty. Discover how simple pen marks evoke the coolness of raw concrete, the warmth of vertical cedar battens, and the crisp transparency of structural glazing.',
-    heroImage: '/src/assets/images/isometric_architecture_art_1791048441839.jpg',
+    heroImage: isometricArchitectureArt,
     keyPrinciples: [
       'Less is more: Never texture 100% of a surface. Suggest texture near edges and shadows, and let the viewer’s eye fill in the center.',
       'Board-formed concrete is characterized by subtle horizontal formwork seams and circular tie-rod holes.',
@@ -227,7 +232,7 @@ export const architecturalLessons: ArchitecturalLesson[] = [
     duration: '20 min',
     difficulty: 'Beginner',
     summary: 'Architecture without humans has no scale. Learn the classic architectural figure drawing technique (clean 7.5-head silhouettes) and how to anchor trees without cluttering structural linework.',
-    heroImage: '/src/assets/images/drawing_lesson_perspective_1791048454032.jpg',
+    heroImage: drawingLessonPerspective,
     keyPrinciples: [
       'In a one-point or two-point perspective, the heads of all standing people will align with the Horizon Line, regardless of distance (if on the same level ground).',
       'Architectural figures are simplified silhouettes—focus on gesture, posture, and line of action rather than facial features.',

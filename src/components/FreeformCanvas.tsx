@@ -18,6 +18,11 @@ import {
 } from 'lucide-react';
 import { saveNewSketch } from '../utils/storage';
 import confetti from 'canvas-confetti';
+import {
+  isometricArchitectureArt,
+  drawingLessonPerspective,
+  isometricGamingStation
+} from '../assets/images';
 
 interface FreeformCanvasProps {
   initialGrid?: 'one-point' | 'two-point' | 'isometric' | 'none';
@@ -59,9 +64,9 @@ export const FreeformCanvas: React.FC<FreeformCanvasProps> = ({
   ];
 
   const referencePresets = [
-    { name: 'Modernist Pavilion', path: '/src/assets/images/isometric_architecture_art_1791048441839.jpg' },
-    { name: 'Colonnade Perspective', path: '/src/assets/images/drawing_lesson_perspective_1791048454032.jpg' },
-    { name: 'Studio Workstation', path: '/src/assets/images/isometric_gaming_station_1791048470439.jpg' }
+    { name: 'Modernist Pavilion', path: isometricArchitectureArt },
+    { name: 'Colonnade Perspective', path: drawingLessonPerspective },
+    { name: 'Studio Workstation', path: isometricGamingStation }
   ];
 
   const pushHistory = useCallback(() => {

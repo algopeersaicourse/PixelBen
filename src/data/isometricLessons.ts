@@ -1,4 +1,8 @@
 import { IsometricExercise } from '../types';
+import {
+  isometricArchitectureArt,
+  isometricGamingStation
+} from '../assets/images';
 
 export const isometricExercises: IsometricExercise[] = [
   {
@@ -14,7 +18,7 @@ export const isometricExercises: IsometricExercise[] = [
       'Complete the outer diamond boundary box.',
       'Slice into the front face to carve an L-shaped step cutout, remembering that all horizontal cuts follow 30° and 150°.'
     ],
-    referenceArtwork: '/src/assets/images/isometric_architecture_art_1791048441839.jpg',
+    referenceArtwork: isometricArchitectureArt,
     ghostGuideSvg: `
       <g stroke="#C0C4CC" stroke-width="1.5" stroke-dasharray="4,4" fill="none" opacity="0.6">
         <!-- Center Origin: 400, 300 -->
@@ -56,7 +60,7 @@ export const isometricExercises: IsometricExercise[] = [
       'Draw floor-to-ceiling structural glass mullions (recessed by 1 grid unit to create depth).',
       'Add deep cast shadow lines beneath the cantilever slab using fine 60-degree diagonal hatch marks.'
     ],
-    referenceArtwork: '/src/assets/images/isometric_architecture_art_1791048441839.jpg',
+    referenceArtwork: isometricArchitectureArt,
     ghostGuideSvg: `
       <g stroke="#C0C4CC" stroke-width="1.5" stroke-dasharray="4,4" fill="none" opacity="0.6">
         <!-- Lower Terrace -->
@@ -94,7 +98,7 @@ export const isometricExercises: IsometricExercise[] = [
       'Draw the 49-key synthesizer on the lower pull-out tray with precise keyboard key dividing lines.',
       'Detail with volume potentiometer knobs and VU meter rectangles.'
     ],
-    referenceArtwork: '/src/assets/images/isometric_gaming_station_1791048470439.jpg',
+    referenceArtwork: isometricGamingStation,
     ghostGuideSvg: `
       <g stroke="#C0C4CC" stroke-width="1.5" stroke-dasharray="4,4" fill="none" opacity="0.6">
         <!-- Desk Surface -->
@@ -133,7 +137,7 @@ export const isometricExercises: IsometricExercise[] = [
       'Construct a flanking concrete retaining wall with top coping.',
       'Add a reflective courtyard pool reflecting the underside of the upper terrace.'
     ],
-    referenceArtwork: '/src/assets/images/isometric_architecture_art_1791048441839.jpg',
+    referenceArtwork: isometricArchitectureArt,
     ghostGuideSvg: `
       <g stroke="#C0C4CC" stroke-width="1.5" stroke-dasharray="4,4" fill="none" opacity="0.6">
         <!-- Step 1 to 5 Zig-Zag -->

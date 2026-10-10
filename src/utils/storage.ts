@@ -1,4 +1,9 @@
 import { SketchItem, UserProgress } from '../types';
+import {
+  isometricArchitectureArt,
+  drawingLessonPerspective,
+  isometricGamingStation
+} from '../assets/images';
 
 const PROGRESS_KEY = 'pixelben_user_progress';
 const SKETCHES_KEY = 'pixelben_sketches';
@@ -9,7 +14,7 @@ const initialSketches: SketchItem[] = [
     title: 'Pavilion Axonometric Study',
     category: 'isometric',
     date: '2026-10-02',
-    dataUrl: '/src/assets/images/isometric_architecture_art_1791048441839.jpg',
+    dataUrl: isometricArchitectureArt,
     notes: 'Practicing 30-degree cantilever projection. Focused on keeping floor plate thickness uniform across all corners.',
     timeSpentMinutes: 35,
     tags: ['Isometric', 'Cantilever', 'Concrete']
@@ -19,7 +24,7 @@ const initialSketches: SketchItem[] = [
     title: 'Two-Point Perspective Colonnade',
     category: 'architecture',
     date: '2026-10-01',
-    dataUrl: '/src/assets/images/drawing_lesson_perspective_1791048454032.jpg',
+    dataUrl: drawingLessonPerspective,
     notes: 'Established left and right vanishing points off the canvas edge to avoid unnatural fish-eye distortion.',
     timeSpentMinutes: 45,
     tags: ['Perspective', 'Vanishing Point', 'Proportions']
@@ -29,7 +34,7 @@ const initialSketches: SketchItem[] = [
     title: 'Studio Synthesizer Station',
     category: 'isometric',
     date: '2026-09-29',
-    dataUrl: '/src/assets/images/isometric_gaming_station_1791048470439.jpg',
+    dataUrl: isometricGamingStation,
     notes: 'Isometric drawing of acoustic monitors, drawing screen, and synth keyboard. Good line weight hierarchy.',
     timeSpentMinutes: 50,
     tags: ['Isometric', 'Studio', 'Hardware']

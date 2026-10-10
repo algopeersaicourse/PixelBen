@@ -14,6 +14,7 @@ import { ProgressPage } from './pages/ProgressPage';
 import { DailyWarmupModal } from './components/DailyWarmupModal';
 import { SketchModal } from './components/SketchModal';
 import { getStoredProgress, getStoredSketches, deleteStoredSketch } from './utils/storage';
+import { studioCanvasBackdrop } from './assets/images';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<NavPage>('home');
@@ -76,7 +77,7 @@ export default function App() {
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         {/* Realistic studio canvas photo backdrop */}
         <img
-          src="/src/assets/images/studio_canvas_backdrop_1791048428928.jpg"
+          src={studioCanvasBackdrop}
           alt="Professional Drawing Studio Canvas"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000"
         />
